@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+var mysql = require('./node_modules/mysql');
 
 module.exports = async () => {
 

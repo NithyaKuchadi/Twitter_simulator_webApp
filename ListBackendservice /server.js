@@ -2,8 +2,8 @@ var connection = new require('./kafka/Connection');
 
 //topics file
 
-var listTopics = require('./services/listTopics.js.js.js');
-var userTopics = require('./services/userTopics.js.js.js');
+var listTopics = require('./services/listTopics.js.js.js.js');
+var userTopics = require('./services/userTopics.js.js.js.js');
 
 function handleTopicRequest(topic_name, fname) {
     console.log("topic_name:", topic_name)
